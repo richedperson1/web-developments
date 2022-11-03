@@ -1,0 +1,16 @@
+/* #outerDiv1, */
+
+#outerDiv1 {
+    width: 80vw;
+    height: 200vh;
+    border: 1px solid black;
+    /* margin: 10px; */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: black;
+    background-color: wheat;
+    box-sizing: border-box;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    scroll-behavior: smooth;
+}
