@@ -1,0 +1,19 @@
+.box1 {
+    /* height: 20vh;
+    width: 20vw;
+    background-color: brown;
+    border: 2px solid black;
+    margin-left: 5vw;
+    margin-right: 50vw; */
+    height: 20vh;
+    width: 20vw;
+    background-color: brown;
+    border: 2px solid black;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    margin-top: 20vh;
+}
+
+p {
+    margin-left: 45vw;
+}
