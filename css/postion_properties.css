@@ -1,0 +1,57 @@
+ html {
+     font-size: 2vw;
+     /* font-size: 2vh; */
+ }
+ 
+ .main_containers {
+     border: 2px solid black;
+     width: 61.6%;
+ }
+ 
+ .shape {
+     height: 10rem;
+     width: 10rem;
+     border: 1px solid red;
+ }
+ /* 
+All About relative position 
+
+
+.divfirst {
+    background-color: aqua;
+}
+
+.divsecond {
+    background-color: black;
+    position: relative;
+    left: 30%;
+}
+
+.divthird {
+    background-color: gray;
+}  
+
+*/
+ /* 
+
+ Absolute positioning 
+ */
+ /* ------------------------------------------------------------ */
+ 
+ .divfirst {
+     background-color: aqua;
+ }
+ 
+ .divsecond {
+     background-color: black;
+     position: absolute;
+     left: 10.4rem;
+     top: 1.2rem
+ }
+ 
+ .divthird {
+     background-color: gray;
+     position: absolute;
+     top: 1.2rem;
+     left: 20.4rem;
+ }

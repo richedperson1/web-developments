@@ -1,6 +1,6 @@
 .calculator_main_div {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 30vw;
+    margin-right: 30vw;
     width: 400px;
 }
 
@@ -17,7 +17,10 @@
 }
 
 .first_block {
-    margin-top: 20vh;
+    vertical-align: baseline;
+    align-items: center;
+    margin-top: 30vh;
+    /* margin-top: 20vh; */
 }
 
 .all_block_css {
