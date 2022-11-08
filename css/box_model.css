@@ -1,0 +1,46 @@
+/* html {
+    font-size: 10px;
+} */
+
+
+/* 
+content box model 
+*/
+
+
+/* 
+
+.size {
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.div1 {
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+.div2 {
+    border: 2px solid blueviolet;
+    background-color: black;
+} 
+
+*/
+
+.param {
+    height: 20%;
+    border: dotted;
+    border-radius: 10px 40px;
+    border-width: 10px 4px;
+    width: 30%;
+    /* background: ; */
+    /* border-style: dotted dashed solid double; */
+}
+
+
+/* 
+
+Element size = content-size+padding +border 
+
+*/
