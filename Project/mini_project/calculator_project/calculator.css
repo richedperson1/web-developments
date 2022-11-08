@@ -9,7 +9,8 @@
     align-items: center;
     align-items: center;
     justify-content: center;
-    border: 1px solid black
+    border: 1px solid black;
+    cursor: pointer;
     /* border: 2px solid black; */
     /* border-left: 1px solid red;
     
@@ -26,6 +27,7 @@
 .all_block_css {
     /* margin-top: 10vh; */
     margin-left: 5vw;
+    cursor: pointer;
     /* border: 2px solid black; */
 }
 
