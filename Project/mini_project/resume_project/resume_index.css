@@ -1,0 +1,58 @@
+html {
+    font-size: 0.7vw;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+.resume_navBar {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.resume_name {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 5rem;
+    color: azure;
+}
+
+.NavBar_heading {
+    background-color: black;
+    background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%);
+    padding-bottom: 4rem;
+}
+
+.unoderlist li {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid brown;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(181, 249, 249);
+}
+
+.social_media {
+    color: azure;
+}
+
+.each_social_media_item {
+    display: inline-block;
+    margin: 0px 5rem 0px 1rem;
+    cursor: pointer;
+}
+
+.social_media_list {
+    text-align: center;
+}
+
+.social_media_link {
+    color: white;
+    font-size: 2rem;
+}
