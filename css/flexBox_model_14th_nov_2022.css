@@ -1,0 +1,32 @@
+html {
+    font-size: 10vh;
+}
+
+.container {
+    /* width: 75vw; */
+    /* height: 75vh; */
+    /* background-color: gray; */
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-direction: row-reverse;
+}
+
+.container div {
+    height: 2.5rem;
+    width: 5rem;
+}
+
+.first {
+    background-color: aqua;
+    order: 50
+}
+
+.second {
+    background-color: rgb(181, 149, 149);
+    order: 5;
+}
+
+.third {
+    background-color: blueviolet;
+    order: 1;
+}
