@@ -42,8 +42,8 @@ body {
     /* border: 1px solid brown; */
     padding: 1rem;
     padding-bottom: 0.5rem;
-    border-radius: 1rem;
-    transition: color 0.5s, border 1s;
+    /* border-radius: 1rem; */
+    transition: color 0.5s;
     /* background-color: rgb(181, 249, 249); */
 }
 
@@ -52,6 +52,7 @@ body {
 
 .social_media {
     color: azure;
+    padding-bottom: 3rem;
 }
 
 .each_social_media_item {
@@ -70,9 +71,35 @@ body {
     color: white;
     font-size: 2rem;
     padding: 0.5rem;
-    /* transition: color 0.5s, border 0.5s; */
     border-radius: 40%
-    /* border: 2px; */
+}
+
+
+/* Header images */
+
+.headerPhoto {
+    text-align: center;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+    margin-top: -7rem;
+}
+
+.resume_photo {
+    text-align: center;
+    /* margin-top: rem; */
+}
+
+
+/* 
+Border will increase it's size Hence we change it's type
+*/
+
+.unoderlist li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s, border 0.5s;
 }
 
 
@@ -81,8 +108,9 @@ body {
 
 /* Navbar hover css */
 
-.header-navbar-items:hover {
+.header-navbar-items a:hover {
     color: rgb(246, 33, 33);
+    padding-bottom: 0.9rem;
     border-bottom: 1px solid white;
 }
 
