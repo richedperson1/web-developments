@@ -1,0 +1,29 @@
+.main-container {
+    height: 400px;
+    width: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.size_of_all {
+    height: 200px;
+    width: 200px;
+}
+
+.div_no1 {
+    background-color: rgb(218, 165, 165);
+}
+
+.div_no2 {
+    background-color: orange;
+}
+
+.div_no3 {
+    background-color: rgb(124, 124, 202);
+}
+
+.div_no4 {
+    background-color: silver;
+}
