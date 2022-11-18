@@ -1,0 +1,54 @@
+.containers {
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    /* 
+
+    ]---------------------} Note 1 {--------------------[
+
+    Flex main axis is decided by flex-direction 
+    (by default flex direction is :row )
+
+    */
+    /* 
+
+    ]---------------------} Note 2 {------------------------[
+    
+    */
+    flex-direction: row;
+    /* 
+
+    justify-content: flex-start;  
+    justify-content will alien item on the main axis, not with cross axis
+
+    */
+    justify-content: center;
+    /* 
+    Align-items
+
+    It help Element to align cross axis alignment. 
+    */
+    align-items: center;
+}
+
+.containers div {
+    width: 100px;
+    height: 100px;
+    /* 
+    border: 2px solid black;
+     */
+}
+
+.div1 {
+    background-color: rgb(110, 229, 229);
+}
+
+.div2 {
+    background-color: rgb(75, 223, 88);
+}
+
+.div3 {
+    background-color: rgb(252, 39, 39);
+}
