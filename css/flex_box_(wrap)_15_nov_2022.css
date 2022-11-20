@@ -3,8 +3,8 @@
     width: auto;
     background-color: aquamarine;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 
 .size_of_all {

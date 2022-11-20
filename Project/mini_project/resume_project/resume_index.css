@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
 html {
-    font-size: 0.75vw;
+    font-size: 1.2vh;
     scroll-behavior: smooth;
 }
 
@@ -38,8 +38,8 @@ body {
 .unoderlist li {
     display: inline-block;
     cursor: pointer;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1.9rem;
+    margin-right: 1.9rem;
     text-align: center;
     color: white;
     font-size: 2rem;
@@ -131,21 +131,22 @@ Border will increase it's size Hence we change it's type
 
 
 /* 
-Profile intro  
+Profile intro Quote
 */
 
 .profileSection {
-    font-size: 2rem;
+    font-size: 2.3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 2rem 25rem;
 }
 
 .profile_intro {
     width: 63rem;
     font-family: 'Teko', sans-serif;
     color: rgb(249, 246, 242);
-    padding: 10px;
+    /* padding: 10px; */
     /* margin: auto; */
 }
 
@@ -154,8 +155,67 @@ Profile intro
 All About Skill Heading 
 */
 
-.skillHeading {
+.section-heading {
     font-size: 50px;
     color: aliceblue;
     text-align: center;
+}
+
+
+/* 
+Section css part
+*/
+
+section {
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background: #000;
+}
+
+section:nth-child(2n+1) {
+    background: rgb(255, 242, 242);
+}
+
+
+/* 
+Technical Skill section 
+*/
+
+.skills-display {
+    height: 50px;
+    width: 100px;
+    /* border: 2px solid white; */
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    /* flex */
+}
+
+.skill-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220%;
+    height: 100%;
+    background: rgb(220, 32, 32);
+    border-radius: 40%;
+    font-weight: 700;
+    font-size: large;
+    border: 2px solid white;
+}
+
+
+/* 
+Common margin 75 px
+*/
+
+.mb75px {
+    margin-bottom: 75px;
 }
