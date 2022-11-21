@@ -8,6 +8,7 @@ body {
     background-color: whitesmoke;
     margin: 0px;
     background-color: #272016;
+    /* background-image: linear-gradient(90deg, black, gray 50%, black); */
 }
 
 .resume_navBar {
@@ -27,6 +28,7 @@ body {
 
 .NavBar_heading {
     background-color: rgb(22, 20, 20);
+    /* background-image: linear-gradient( -180deg, black, gray 50%, black); */
     /* background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%); */
     padding-bottom: 4rem;
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -88,10 +90,12 @@ body {
     width: 10%;
     height: auto;
     margin-top: -7rem;
+    border: 2px solid white;
 }
 
 .resume_photo {
     text-align: center;
+    /* border: 2px solid white; */
     /* margin-top: rem; */
 }
 
@@ -140,6 +144,7 @@ Profile intro Quote
     flex-direction: row;
     justify-content: center;
     padding: 2rem 25rem;
+    border-bottom: 2px solid white
 }
 
 .profile_intro {
@@ -195,6 +200,7 @@ Technical Skill section
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .skills-display span {
