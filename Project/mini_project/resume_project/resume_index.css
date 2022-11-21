@@ -150,7 +150,7 @@ Profile intro Quote
 .profile_intro {
     width: 63rem;
     font-family: 'Teko', sans-serif;
-    color: rgb(249, 246, 242);
+    color: rgb(223, 234, 68);
     /* padding: 10px; */
     /* margin: auto; */
 }
@@ -162,7 +162,7 @@ All About Skill Heading
 
 .section-heading {
     font-size: 50px;
-    color: aliceblue;
+    color: rgb(88, 130, 167);
     text-align: center;
 }
 
