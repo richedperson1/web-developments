@@ -4,7 +4,7 @@
     background-color: aquamarine;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .size_of_all {
