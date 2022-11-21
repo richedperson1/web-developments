@@ -195,7 +195,7 @@ Technical Skill section
 */
 
 .skills-display {
-    width: 80%;
+    width: 45%;
     /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
@@ -209,7 +209,7 @@ Technical Skill section
     border: 2px solid white;
     padding: 0.5rem;
     border-radius: 2rem;
-    width: 17%;
+    width: 100px;
     font-size: 50%;
 }
 
