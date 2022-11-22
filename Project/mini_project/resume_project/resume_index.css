@@ -8,7 +8,7 @@ body {
     background-color: whitesmoke;
     margin: 0px;
     background-color: #272016;
-    background-image: linear-gradient(to top, black, gray 60%);
+    /* background-image: linear-gradient(to top, black, gray 60%); */
 }
 
 .resume_navBar {
@@ -28,10 +28,10 @@ body {
 
 .NavBar_heading {
     background-color: rgb(22, 20, 20);
-    background-image: linear-gradient( -180deg, black, gray 50%);
+    /* background-image: linear-gradient( -180deg, black, gray 50%); */
     /* background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%); */
     padding-bottom: 4rem;
-    /* border-bottom: 2px solid rgb(255, 255, 255); */
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 
@@ -162,7 +162,7 @@ All About Skill Heading
 
 .section-heading {
     font-size: 50px;
-    color: rgb(88, 130, 167);
+    color: rgb(73, 227, 117);
     text-align: center;
 }
 
@@ -203,14 +203,57 @@ Technical Skill section
     align-items: center;
 }
 
-.skills-display span {
+.skills-display .ninty-percentage {
     display: inline-block;
-    margin: 1rem;
     border: 2px solid white;
-    padding: 0.5rem;
-    border-radius: 2rem;
-    width: 100px;
+    border-radius: 3rem;
+    margin: 1rem;
+    /* padding: 0.8rem; */
+    /* background-color: aqua; */
     font-size: 50%;
+    width: 150px;
+}
+
+.shape_of_skill {
+    display: inline-block;
+    background-color: red;
+    /* height: 50%; */
+    margin: -0.5px;
+    border-radius: 3rem 0rem 0rem 3rem;
+    padding: 0.5rem;
+    color: #000;
+    text-align: center;
+}
+
+
+/* Expertice wise skill level */
+
+#skill-python {
+    width: 75%;
+}
+
+#skill-ml {
+    width: 65%;
+    background-color: rgb(68, 168, 255);
+    margin: 0px;
+    margin: -0.7px;
+}
+
+#skill-html {
+    width: 62%;
+    background-color: rgb(84, 148, 205);
+    color: rgb(251, 255, 255);
+}
+
+#skill-css {
+    width: 62%;
+    background-color: rgb(215, 248, 55);
+}
+
+#skill-sql {
+    width: 60%;
+    background-color: rgb(98, 117, 7);
+    color: beige;
 }
 
 
