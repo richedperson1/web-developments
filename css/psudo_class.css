@@ -1,0 +1,8 @@
+a:active {
+    background-color: red;
+}
+
+a:visited {
+    color: gray;
+    font-style: italic;
+}
