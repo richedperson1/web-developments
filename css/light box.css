@@ -1,0 +1,21 @@
+/* 
+Some program to do the animation in Website
+*/
+
+#lightBoxTransition {
+    height: 0;
+    width: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 1s ease-in-out;
+}
+
+#lightBoxTransition:target {
+    height: 30%;
+    width: 30%;
+    top: 30%;
+    left: 30%;
+    background-color: azure;
+}
