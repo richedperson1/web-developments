@@ -1,0 +1,25 @@
+html {
+    font-size: 18px;
+}
+
+a:active {
+    background-color: red;
+}
+
+a:visited {
+    color: gray;
+    font-style: italic;
+}
+
+
+/* 
+Psuado Element operation
+
+1. First-letter
+*/
+
+.psuadoElement::first-letter {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
