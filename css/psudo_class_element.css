@@ -23,3 +23,11 @@ Psuado Element operation
     font-weight: bolder;
     text-transform: capitalize;
 }
+
+span {
+    background-color: aqua;
+}
+
+span::after {
+    content: " I am the best";
+}
