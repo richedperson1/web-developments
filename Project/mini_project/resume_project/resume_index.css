@@ -274,24 +274,51 @@ Experince Section in resume
 */
 
 div.timeline {
-    width: 70%;
+    width: 50%;
     display: flex;
-    /* flex-direction: column-reverse; */
-    /* justify-content: center;
-    align-items: center; */
     border: 2px solid red;
+    flex-direction: column;
 }
 
 
 /* Description */
 
-.description {
-    font-size: 1.2rem;
-}
+
+/* .description {
+    /* font-size: 1.2rem; 
+} 
+*/
 
 
 /* Harman experience */
 
 .harman {
+    box-sizing: border-box;
+    width: 45%;
+    font-size: 20px;
+    /* height: 2%; */
     border: 1px solid black;
+    position: relative;
+    left: 55%;
+}
+
+
+/* iPrimed experience */
+
+.iPrimed {
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 45%;
+    border: 1px solid black;
+}
+
+span.description {
+    display: block;
+}
+
+
+/* Common padding for all */
+
+.p-5px {
+    padding: 10px;
 }
