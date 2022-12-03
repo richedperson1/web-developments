@@ -273,11 +273,17 @@ Experince Section in resume
 
 */
 
+section#experience {
+    background-color: rgb(204, 231, 231);
+}
+
 div.timeline {
     width: 50%;
     display: flex;
     border: 2px solid red;
+    /* border-radius: 20% 20%; */
     flex-direction: column;
+    background-color: bisque;
 }
 
 
@@ -299,7 +305,9 @@ div.timeline {
     /* height: 2%; */
     border: 1px solid black;
     position: relative;
-    left: 55%;
+    left: 55.2%;
+    background-color: aliceblue;
+    margin: -0.7px 0px;
 }
 
 
@@ -309,7 +317,10 @@ div.timeline {
     box-sizing: border-box;
     font-size: 20px;
     width: 45%;
+    position: relative;
     border: 1px solid black;
+    background-color: aliceblue;
+    left: -0.1%;
 }
 
 span.description {
