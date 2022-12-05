@@ -327,9 +327,48 @@ span.description {
     display: block;
 }
 
+span.timePeriodExp {
+    position: relative;
+    color: rgb(38, 36, 25);
+    font-size: 15px;
+    display: block;
+}
+
+span.destinationiPrimed,
+.destinationHarman {
+    font-size: 15px;
+}
+
 
 /* Common padding for all */
 
 .p-5px {
     padding: 10px;
+}
+
+.p-50px {
+    padding-bottom: 50px;
+}
+
+
+/* 
+
+All about portfolio Project
+
+*/
+
+.allProjectMade {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectPortfolio {
+    border: 2px solid rebeccapurple;
+    /* display: inline; */
+    width: 35%;
+    text-align: center;
 }
