@@ -274,16 +274,38 @@ Experince Section in resume
 */
 
 section#experience {
-    background-color: rgb(204, 231, 231);
+    background-color: rgb(4, 27, 27);
+    border-top: 2px solid white;
 }
 
 div.timeline {
     width: 50%;
     display: flex;
     border: 2px solid red;
-    /* border-radius: 20% 20%; */
+    border-radius: 5%;
     flex-direction: column;
-    background-color: bisque;
+    background-color: rgb(128, 87, 37);
+}
+
+h1.experienceHeading {
+    color: white;
+}
+
+.shapeBox {
+    border-radius: 10%;
+    /* min-width: 200px; */
+}
+
+
+/* 
+Middle line in exp
+*/
+
+.middleLine {
+    position: absolute;
+    border-left: 0.5px dashed white;
+    height: 65%;
+    left: 50%;
 }
 
 
@@ -302,7 +324,6 @@ div.timeline {
     box-sizing: border-box;
     width: 45%;
     font-size: 20px;
-    /* height: 2%; */
     border: 1px solid black;
     position: relative;
     left: 55.2%;
@@ -323,10 +344,6 @@ div.timeline {
     left: -0.1%;
 }
 
-span.description {
-    display: block;
-}
-
 span.timePeriodExp {
     position: relative;
     color: rgb(38, 36, 25);
@@ -334,16 +351,25 @@ span.timePeriodExp {
     display: block;
 }
 
-span.destinationiPrimed,
-.destinationHarman {
+span.companyName {
+    display: block;
+    font-weight: bold;
+}
+
+span.jobDestination {
+    display: block;
     font-size: 15px;
+}
+
+span.expDescription li {
+    font-size: medium;
 }
 
 
 /* Common padding for all */
 
 .p-5px {
-    padding: 10px;
+    padding: 20px;
 }
 
 .p-50px {
