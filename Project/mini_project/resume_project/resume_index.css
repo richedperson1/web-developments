@@ -292,7 +292,9 @@ h1.experienceHeading {
 }
 
 .shapeBox {
+    /* position: relative; */
     border-radius: 10%;
+    /* top: 0%; */
     /* min-width: 200px; */
 }
 
@@ -304,9 +306,17 @@ Middle line in exp
 .middleLine {
     position: absolute;
     border-left: 0.5px dashed white;
-    height: 65%;
+    height: 65vh;
     left: 50%;
 }
+
+
+/* #fight {
+    position: sticky;
+    top: 400px;
+    margin-left: 48%;
+    padding-top: 100px;
+} */
 
 
 /* Description */
