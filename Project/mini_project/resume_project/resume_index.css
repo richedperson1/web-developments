@@ -285,6 +285,7 @@ div.timeline {
     border-radius: 5%;
     flex-direction: column;
     background-color: rgb(128, 87, 37);
+    min-height: 150px;
 }
 
 h1.experienceHeading {
@@ -306,8 +307,28 @@ Middle line in exp
 .middleLine {
     position: absolute;
     border-left: 0.5px dashed white;
-    height: 65vh;
+    height: 60%;
+    width: 0;
     left: 50%;
+}
+
+
+/* 
+Flight image 
+*/
+
+.flightImg {
+    position: absolute;
+    /* size: 2%; */
+    transform: rotate(180deg);
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+}
+
+div.imagePlace {
+    position: sticky;
+    top: 50rem;
 }
 
 
