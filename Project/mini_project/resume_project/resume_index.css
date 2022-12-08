@@ -279,6 +279,7 @@ section#experience {
 }
 
 div.timeline {
+    position: relative;
     width: 50%;
     display: flex;
     border: 2px solid red;
@@ -307,9 +308,10 @@ Middle line in exp
 .middleLine {
     position: absolute;
     border-left: 0.5px dashed white;
-    height: 60%;
+    height: 80%;
     width: 0;
     left: 50%;
+    top: 10%;
 }
 
 
