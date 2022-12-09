@@ -285,7 +285,7 @@ div.timeline {
     border: 2px solid red;
     border-radius: 5%;
     flex-direction: column;
-    background-color: rgb(128, 87, 37);
+    background-color: rgb(169, 80, 28);
     min-height: 150px;
 }
 
@@ -307,9 +307,9 @@ Middle line in exp
 
 .middleLine {
     position: absolute;
-    border-left: 0.5px dashed white;
+    border-left: 3px dashed white;
     height: 80%;
-    width: 0;
+    width: 0%;
     left: 50%;
     top: 10%;
 }
@@ -319,41 +319,18 @@ Middle line in exp
 Flight image 
 */
 
-.flightImg {
-    position: absolute;
-    /* size: 2%; */
-    transform: rotate(180deg);
-    width: 20px;
-    height: 20px;
-    margin-left: -10px;
-}
-
 div.imagePlace {
     position: sticky;
-    top: 50rem;
+    top: 60rem;
+    width: 30px;
+    height: 20px;
+    transform: rotate(90deg);
 }
 
 
-/* #fight {
-    position: sticky;
-    top: 400px;
-    margin-left: 48%;
-    padding-top: 100px;
-} */
+/*  Experience box Sizing */
 
-
-/* Description */
-
-
-/* .description {
-    /* font-size: 1.2rem; 
-} 
-*/
-
-
-/* Harman experience */
-
-.harman {
+.shapeBox {
     box-sizing: border-box;
     width: 45%;
     font-size: 20px;
@@ -364,18 +341,15 @@ div.imagePlace {
     margin: -0.7px 0px;
 }
 
+.shapeBox:nth-child(2n+1) {
+    left: 0%;
+}
+
+
+/* Flight airport In experience box */
+
 
 /* iPrimed experience */
-
-.iPrimed {
-    box-sizing: border-box;
-    font-size: 20px;
-    width: 45%;
-    position: relative;
-    border: 1px solid black;
-    background-color: aliceblue;
-    left: -0.1%;
-}
 
 span.timePeriodExp {
     position: relative;
