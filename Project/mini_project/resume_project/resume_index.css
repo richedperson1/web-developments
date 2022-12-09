@@ -337,7 +337,7 @@ div.imagePlace {
     border: 1px solid black;
     position: relative;
     left: 55.2%;
-    background-color: aliceblue;
+    background-color: rgb(112, 175, 231);
     margin: -0.7px 0px;
 }
 
@@ -347,6 +347,10 @@ div.imagePlace {
 
 
 /* Flight airport In experience box */
+
+.shapeBox:nth-child(2n)::before {
+    /* content: "Hello"; */
+}
 
 
 /* iPrimed experience */
@@ -361,16 +365,24 @@ span.timePeriodExp {
 span.companyName {
     display: block;
     font-weight: bold;
+    color: rgb(28, 33, 1);
 }
 
 span.jobDestination {
     display: block;
     font-size: 15px;
+    color: black;
 }
 
 span.expDescription li {
     font-size: medium;
 }
+
+
+/* span.companyName:nth-child(2n+1):hover {
+    width: 30%;
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+} */
 
 
 /* Common padding for all */
