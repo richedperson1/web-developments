@@ -325,6 +325,7 @@ div.imagePlace {
     width: 30px;
     height: 20px;
     transform: rotate(90deg);
+    z-index: 4;
 }
 
 
@@ -348,8 +349,28 @@ div.imagePlace {
 
 /* Flight airport In experience box */
 
-.shapeBox:nth-child(2n)::before {
-    /* content: "Hello"; */
+.shapeBox:nth-child(2n)::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    top: 14rem;
+    left: -12.7%;
+    background-color: rgb(240, 9, 9);
+    z-index: 1;
+}
+
+.shapeBox:nth-child(2n+1)::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    top: 14rem;
+    left: 110.6%;
+    background-color: rgb(231, 17, 17);
+    z-index: 1;
 }
 
 
