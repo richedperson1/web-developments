@@ -425,18 +425,25 @@ All about portfolio Project
 
 */
 
-.allProjectMade {
-    width: 70%;
+div.allProjectMade {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 39.5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid black;
+    /* padding-top: 10rem; */
+    padding: 0%;
+    margin: 0%;
 }
 
-.projectPortfolio {
-    border: 2px solid rebeccapurple;
-    /* display: inline; */
-    width: 35%;
-    text-align: center;
+img.Project1Img {
+    display: flex;
+    flex-direction: flex;
+    height: 150px;
+    /* margin-left: 2rem; */
+    border-radius: 20%;
+    border: 2px solid black;
+    justify-content: space-between;
 }
