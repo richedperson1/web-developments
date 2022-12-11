@@ -326,6 +326,7 @@ div.imagePlace {
     height: 20px;
     transform: rotate(90deg);
     z-index: 4;
+    color: #000;
 }
 
 
@@ -356,7 +357,7 @@ div.imagePlace {
     width: 1rem;
     height: 1rem;
     top: 14rem;
-    left: -12.7%;
+    left: -12.9%;
     background-color: rgb(240, 9, 9);
     z-index: 1;
 }
@@ -383,7 +384,7 @@ span.timePeriodExp {
     display: block;
 }
 
-span.companyName {
+span.shapeBoxHeadName {
     display: block;
     font-weight: bold;
     color: rgb(28, 33, 1);
@@ -397,6 +398,7 @@ span.jobDestination {
 
 span.expDescription li {
     font-size: medium;
+    color: black;
 }
 
 
