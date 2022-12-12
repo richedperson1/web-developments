@@ -425,25 +425,33 @@ All about portfolio Project
 
 */
 
+section#portfolio {
+    background-color: rgb(241, 237, 144);
+}
+
 div.allProjectMade {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 39.5%;
+    width: 55%;
     flex-wrap: wrap;
     flex-direction: row;
     border: 2px solid black;
     /* padding-top: 10rem; */
-    padding: 0%;
+    border-radius: 5%;
+    padding: 5%;
     margin: 0%;
+    background-color: #272016;
+    margin-bottom: 20rem;
 }
 
 img.Project1Img {
-    display: flex;
-    flex-direction: flex;
     height: 150px;
     /* margin-left: 2rem; */
-    border-radius: 20%;
+    border-radius: 10%;
     border: 2px solid black;
-    justify-content: space-between;
+}
+
+.projectPortfolio {
+    margin: 2%;
 }
