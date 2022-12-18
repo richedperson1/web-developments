@@ -1,0 +1,35 @@
+.box1 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid gray;
+    background-color: aqua;
+}
+
+.login {
+    display: inline-block;
+    /* min-width: 500px; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    /* height: 20%; */
+    list-style: none;
+}
+
+img.imageResizes {
+    width: 320%;
+    position: relative;
+    left: 112%;
+    /* right: -84px; */
+    /* height: 10%; */
+    object-fit: contain;
+    /* margin: 50%; */
+}
+
+div.main {
+    position: absolute;
+}
+
+img.imageResizes:hover {
+    box-shadow: 5px 10px #888888;
+}
