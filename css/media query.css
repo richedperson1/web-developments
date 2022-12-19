@@ -1,0 +1,12 @@
+.first {
+    width: 80%;
+    border: 2px solid gray;
+    padding: 2px 15px 0px 25px;
+}
+
+@media screen and (max-width:800px) {
+    .first {
+        width: 96.8%;
+        padding: 2px 15px 0px 5px;
+    }
+}
