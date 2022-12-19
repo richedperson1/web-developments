@@ -478,6 +478,13 @@ span.a {
 
 /* Media Query for Section wise */
 
+@media screen and (max-width:813px) {
+    .profileSection {
+        margin: 0;
+        padding: 10%;
+    }
+}
+
 @media screen and (max-width:683px) {
     div.allProjectMade {
         width: 90%;
