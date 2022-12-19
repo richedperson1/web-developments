@@ -144,7 +144,7 @@ Profile intro Quote
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 2rem 25rem;
+    padding: 2rem 20rem;
     border-bottom: 2px solid white
 }
 
@@ -478,15 +478,16 @@ span.a {
 
 /* Media Query for Section wise */
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:683px) {
     div.allProjectMade {
         width: 90%;
     }
     div.timeline {
         width: 90%;
     }
-    .profile_intro {
-        width: 925%;
+    .profileSection {
+        margin: 0;
+        padding: 0%;
     }
     .skills-display {
         width: 90%;
