@@ -473,3 +473,12 @@ span.a {
     justify-content: center;
     align-items: center;
 }
+
+
+/* Media Query for Section wise */
+
+@media screen and (max-width:670px) {
+    div.allProjectMade {
+        width: 90%;
+    }
+}
