@@ -143,12 +143,13 @@ Profile intro Quote
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 2rem 25rem;
     border-bottom: 2px solid white
 }
 
 .profile_intro {
-    width: 63rem;
+    width: 65%;
     font-family: 'Teko', sans-serif;
     color: rgb(223, 234, 68);
     /* padding: 10px; */
@@ -479,6 +480,15 @@ span.a {
 
 @media screen and (max-width:670px) {
     div.allProjectMade {
+        width: 90%;
+    }
+    div.timeline {
+        width: 90%;
+    }
+    .profile_intro {
+        width: 925%;
+    }
+    .skills-display {
         width: 90%;
     }
 }
