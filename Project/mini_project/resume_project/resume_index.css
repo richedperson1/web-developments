@@ -456,11 +456,14 @@ img.Project1Img {
 
 .projectPortfolio {
     margin: 2%;
+    border-radius: 10%;
+    transition: all 0.5s ease-in-out;
     /* box-shadow: 2px; */
 }
 
-.Project1Img:hover {
+.projectPortfolio:hover {
     box-shadow: 0.5px -2.5px 7.5px 12.5px green;
+    opacity: 70%;
 }
 
 span.a {
@@ -476,6 +479,11 @@ span.a {
 }
 
 
+/* 
+Description of project in Img photo
+*/
+
+
 /* Media Query for Section wise */
 
 @media screen and (max-width:813px) {
@@ -485,7 +493,7 @@ span.a {
     }
 }
 
-@media screen and (max-width:683px) {
+@media screen and (max-width:913px) {
     div.allProjectMade {
         width: 90%;
     }
