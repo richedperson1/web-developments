@@ -1,0 +1,11 @@
+.bodyFirst {
+    margin: 20%;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    transition: 2s ease-in-out;
+    transform: rotate(63deg);
+    /* transform: rotate(93deg); */
+    transform: translate(2px, 200px);
+    /* transform: translate(20%); */
+}
