@@ -1,0 +1,67 @@
+@keyframes firstanimation {
+    0% {
+        border-radius: 0%;
+    }
+    25% {
+        height: 180px;
+        width: 500px;
+        border-radius: 10%;
+    }
+    50% {
+        height: 150px;
+        width: 500px;
+        border-radius: 0% 30% 40% 0%;
+    }
+    75% {
+        height: 130px;
+        width: 500px;
+        /* border-radius: 35%; */
+        border-radius: 0% 30% 40% 0%;
+    }
+    100% {
+        height: 100px;
+        width: 500px;
+        border-radius: 0% 50% 50% 0%;
+    }
+}
+
+@keyframes movingBox {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes changingPosition {
+    from {
+        transform: translate(100px);
+    }
+    to {
+        transform: translate(400px);
+    }
+}
+
+
+/* 
+To add animation we used animation name in the css selector tags.
+
+@keyframes is the keyword used for animation
+*/
+
+.animationBox {
+    position: relative;
+    top: 200px;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    /* animation: firstanimation 1s ease-in-out infinite alternate; */
+    animation-name: firstanimation, movingBox, changingPosition;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-timeline: alternate; */
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
