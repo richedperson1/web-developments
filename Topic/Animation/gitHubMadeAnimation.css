@@ -1,0 +1,45 @@
+@keyframes placeChange {
+    from {
+        /* transform: translate(0px, 0px); */
+        border-radius: 10%;
+    }
+    to {
+        /* transform: translate(400px, 200px); */
+        border-radius: 50%;
+    }
+}
+
+.firstDiv {
+    /* width: 200px; */
+    height: 200px;
+    background-color: black;
+    /* animation-name: placeChange;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate; */
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    left: 40%;
+    top: -10%;
+    border-radius: 5%;
+    width: 200px;
+    /* margin-top: 100px; */
+    height: 200px;
+    background-color: rgb(158, 32, 32);
+    animation-name: placeChange, animate__bounceInDown;
+    /* animate__bounceInDown */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    --animate-duration: 2.5s;
+    /* -- will change global varible locally */
+}
