@@ -1,0 +1,27 @@
+.mainCube {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 100px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.face1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    /* z-index: -3; */
+    background-color: rgb(211, 32, 32);
+    transition: 1s all;
+}
+
+.one {
+    background-color: aqua;
+}
+
+.one:hover {
+    transform: rotateX(30deg) rotateY(30deg);
+}
