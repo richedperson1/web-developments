@@ -1,0 +1,19 @@
+
+1. Bootstrap is frontend framework which allow to work on implementation part only rather than Writing code from scratch
+
+2.It's used to make standarize code {Made by twitter Engineer's }
+
+
+feature of Bootstrap:
+    1. popular framework 
+    2. Easy to used
+    3. save alot of time 
+    4. Load time
+    5. Resposive
+    6. custumization
+    7. well documentation
+
+Cron's
+    1. Bulky decide 
+    2. Look similar with other web
+    
