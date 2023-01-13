@@ -1,0 +1,30 @@
+.row {
+    background-color: rgb(237, 30, 30);
+    box-sizing: border-box;
+}
+
+.col {
+    display: flex;
+    background-color: brown;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#first4col {
+    background-color: blueviolet;
+    height: 60px;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+#first6col {
+    background-color: aquamarine;
+}
+
+.marginTop {
+    margin-top: 20px;
+}
