@@ -1,0 +1,46 @@
+.orginal {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    /* border: 2px solid black */
+}
+
+.mainDiv {
+    display: flex;
+    width: 40%;
+    border: 2px solid blue;
+    justify-content: center;
+}
+
+.ClassFirst {
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#elementID1 {
+    background-color: blueviolet;
+}
+
+#elementID2 {
+    background-color: rgb(184, 148, 218);
+}
+
+#elementID3 {
+    background-color: rgb(55, 238, 30);
+}
+
+.ClassFirst:hover {
+    /* transition: 2s ease-in-out; */
+    width: 400px;
+}
+
+.mainDiv {
+    box-sizing: border-box;
+}
