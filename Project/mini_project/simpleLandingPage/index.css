@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", "sans-serif";
+}
+
+.outerLoginPage {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+
+.innerLoginPage {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 60px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 15px 15px 5px #555;
+    z-index: 5;
+}
+
+.loginPageHeadline {
+    margin-bottom: 20px;
+}
+
+.loginPageHeadline h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.loginPageHeadline p {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.signupbody {
+    margin: 20px 0px;
+}
+
+.signupbody p label {
+    display: block;
+}
+
+.signupbody p {
+    margin: 10px 0px;
+}
+
+.signupbody p input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.signupbody p input[type="submit"] {
+    margin-top: 1px;
+    cursor: pointer;
+    color: white;
+    background-color: #2cc1e7;
+}
+
+.signInPage p {
+    color: #555;
+    text-align: center;
+}
+
+.signInPage p a {
+    color: rgb(48, 48, 226);
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #9fd9e8, #ffffffff);
+    margin: 20px;
+}
+
+#circleFirst {
+    position: relative;
+    left: 80%;
+    background-color: #2cc1e7;
+}
+
+#circleThird {
+    position: relative;
+    top: -70%;
+    left: 10%;
+    background-color: #2cc1e7;
+}
+
+#circleFourth {
+    position: relative;
+    top: -100%;
+    left: 70%;
+    background-color: #2cc1e7;
+}
