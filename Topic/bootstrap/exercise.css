@@ -1,0 +1,11 @@
+.basicNeed {
+    color: white;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.border-3 {
+    border-color: red !important;
+    /* border-radius: 5% !important; */
+    margin: 0px !important;
+}
