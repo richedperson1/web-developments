@@ -1,0 +1,33 @@
+/* 
+Method 1 
+
+Do the centering of card  
+
+*/
+
+
+/* 
+.card {
+    position: relative;
+    margin: 0 auto;
+    position: relative;
+    transform: translateY(100%);
+} 
+*/
+
+
+/* 
+Method 2
+
+Do the centering of card  
+
+*/
+
+.second {
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 97, 97);
+}
