@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.headerOffer {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+
+.navBarLinks p {
+    display: inline;
+    margin: 5px;
+}
+
+.imageLogo {
+    display: inline;
+    position: absolute;
+    /* left: 30%; */
+    /* top: 12%; */
+}
+
+.navBarLinks {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+.navBarInHeader {
+    margin-top: 0.5%;
+}
