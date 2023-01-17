@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+/* reset values */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: 600;
+}
+
+header {
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+
+/* utility class */
+
+.margin-b-20 {
+    margin-bottom: 20px;
+}
+
+.text-mini-bold {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1196px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.secondary-btn {
+    border: 2px solid black;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: var(--secondary-text-color);
+    color: white !important;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+}
+
+.primary-btn {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    /* background-color: var(--accent-color); */
+    color: var(--secondary-text-color) !important;
+}
+
+.secondary-btn:hover {
+    background-color: var(--accent-color);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link-hover {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-in-out;
+}
+
+.navbar-link-hover:hover {
+    color: var(--accent-color);
+}
+
+
+/* Top banner */
+
+.banner-texting {
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.top-banner {
+    background-image: url("assets\\asset 32.png");
+    background-color: #4fb3d4;
+    /* width: 300px; */
+    background-size: 300px;
+}
+
+
+/* Nav bar links */
+
+.main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.image-logo img {
+    width: 200px;
+}
+
+.navbar-links ul {
+    justify-content: end;
+    gap: 40px;
+}
+
+.navbar-links {
+    flex-basis: 730px;
+}
+
+
+/* Introduction section */
+
+.introduction {
+    margin-top: 1%;
+}
+
+.intro-head-images {
+    height: 500px;
+}
+
+.intro-main {
+    justify-content: center;
+    gap: 50px;
+}
