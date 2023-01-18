@@ -59,6 +59,10 @@ header {
 
 /* utility class */
 
+.margin-t-10 {
+    margin-top: 10px;
+}
+
 .margin-b-20 {
     margin-bottom: 20px;
 }
@@ -163,3 +167,29 @@ header {
     justify-content: center;
     gap: 50px;
 }
+
+
+/* Company logo */
+
+.short-head {
+    margin: 30px 0px !important;
+}
+
+.headline {
+    justify-content: center;
+    color: var(--primary-text-color);
+}
+
+.companyLogo {
+    /* box-sizing: border-box; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* flex-shrink: 2; */
+}
+
+.companyLogo img {
+    height: 46px;
+}
+
+
+/* Feature section */
