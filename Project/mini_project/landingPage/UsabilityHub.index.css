@@ -306,5 +306,60 @@ Example section CSS
 */
 
 .exampleHeading {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 80px 0px;
+}
+
+div.example-set {
+    margin-top: 50px;
+    gap: 20px;
+}
+
+#example-set1 {
+    /* min-width: 200px; */
+    width: 23%;
+    /* min-width: 200px; */
+    min-height: 300px;
+    position: relative;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    /* background: #000; */
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("assets//asset\ 36.jpeg");
+    background-size: cover;
+}
+
+a.common-set {
+    width: 23%;
+    /* min-width: 200px; */
+    min-height: 300px;
+    position: relative;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-size: cover;
+    transition: 0.2s ease-out;
+}
+
+#example-set4 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("assets//asset\ 37.jpeg");
+}
+
+#example-set2 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("assets//asset\ 39.jpeg");
+}
+
+#example-set3 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("assets//asset\ 38.jpeg");
+}
+
+h3.card-text {
+    color: white;
+    padding: 0% 10%;
+    font-family: 'Averta PE', sans-serif;
+}
+
+
+/* Hov */
+
+a.common-set:hover {
+    box-shadow: 0 0 10px #888;
 }
