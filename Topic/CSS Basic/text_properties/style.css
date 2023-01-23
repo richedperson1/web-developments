@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+}
+
+a {
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.second {
+    color: rgb(244, 244, 236);
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(2, 2, 2);
+}
+
+a.second-link {
+    position: relative;
+}
+
+a.second-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    background: red;
+    /* top: 100%; */
+    left: 0;
+    bottom: 0;
+}
+
+a.second-link::after {
+    transform: scale(0, 1);
+    transform-origin: 0% 100%;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+a.second-link:hover::after {
+    transform: scale(1, 1);
+}
