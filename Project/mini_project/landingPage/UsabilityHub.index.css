@@ -166,6 +166,10 @@ h4.h4-heading {
     flex-basis: 730px;
 }
 
+.toggle-navbar-switch {
+    display: none;
+}
+
 
 /* Introduction section */
 

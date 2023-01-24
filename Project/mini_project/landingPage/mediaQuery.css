@@ -1,0 +1,10 @@
+@media screen and (max-width:1024px) {
+    .toggle-navbar-switch {
+        display: block;
+        margin-right: 25px;
+        font-size: larger;
+    }
+    .navbar-links {
+        display: none !important;
+    }
+}
