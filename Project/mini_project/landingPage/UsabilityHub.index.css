@@ -84,6 +84,7 @@ h4.h4-heading {
     max-width: 1196px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden;
 }
 
 .secondary-btn {
