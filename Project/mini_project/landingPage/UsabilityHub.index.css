@@ -235,12 +235,6 @@ h4.h4-heading {
 
 /* Feature each box */
 
-.spacer {
-    /* height: 1px; */
-    /* border: 1px solid black; */
-    /* width: 80%; */
-}
-
 .feature-box-common {
     max-width: 32%;
     /* min-width: 10%; */
