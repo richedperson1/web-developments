@@ -311,18 +311,11 @@ Example section CSS
 
 div.example-set {
     margin-top: 50px;
-    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #example-set1 {
-    /* min-width: 200px; */
-    width: 23%;
-    /* min-width: 200px; */
-    min-height: 300px;
-    position: relative;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    /* background: #000; */
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("assets//asset\ 36.jpeg");
     background-size: cover;
 }
@@ -333,7 +326,7 @@ a.common-set {
     min-height: 300px;
     position: relative;
     align-items: flex-end;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-size: cover;
     transition: 0.2s ease-out;
 }

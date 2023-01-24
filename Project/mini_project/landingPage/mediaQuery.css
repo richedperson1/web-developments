@@ -7,4 +7,23 @@
     .navbar-links {
         display: none !important;
     }
+    .example-set {
+        gap: 20px;
+    }
+    a.common-set {
+        /* width: 48%; */
+        width: calc(50% - 10px);
+        flex-wrap: wrap;
+    }
+    a.image-logo {
+        display: inline-block;
+        width: 100%;
+    }
+    img.intro-head-images {
+        width: 100% !important;
+        height: auto;
+    }
+    .card-title-intro {
+        width: 70%;
+    }
 }
