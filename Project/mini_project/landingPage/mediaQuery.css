@@ -48,4 +48,76 @@
         justify-content: center;
         text-align: center;
     }
+    div.firstImag {
+        max-width: 70%;
+    }
+    .team-intro,
+    .team-intro-left {
+        max-width: 89%;
+    }
+    /* Utlities class */
+    .margin-bottom-10 {
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .text-4-all {
+        font-size: 1.2rem;
+    }
+    /* Bord member image */
+    img.bordMember-img-size-smallD {
+        width: 29%;
+        margin-right: 5%;
+    }
+    /* Bord member Flex direction*/
+    div.working-model-4-small {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    div.working-model-4-small-left {
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    /* Taking every window to 100% width */
+    .bgImg {
+        width: 100% !important;
+    }
+    /* Root class  */
+     :root {
+        --padding-inline-section: 10px;
+    }
+    /* footer section */
+    .allFooterLink {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ProductLink {
+        margin-top: 10px;
+        margin-bottom: 5px !important;
+        margin-left: 0px !important;
+    }
+    .ProductLink:nth-child(4) {
+        margin-left: -19% !important;
+    }
+    .ProductLink:nth-child(2) {
+        margin-left: -15% !important;
+    }
 }
+
+
+/* font-size: 1.0rem; */
+
+@media screen and (max-width:420px) {
+    .text-4-all {
+        font-size: 1rem;
+    }
+    .feature-box-common {
+        min-width: 100%;
+    }
+}
+
+
+/*     min-width: 100%;
+ */
