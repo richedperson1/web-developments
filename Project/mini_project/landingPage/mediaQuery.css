@@ -22,8 +22,20 @@
     img.intro-head-images {
         width: 100% !important;
         height: auto;
+        min-width: 250px;
     }
     .card-title-intro {
         width: 70%;
     }
+    .first-main-heading {
+        font-size: 180%;
+    }
+    .first-main-text {
+        font-size: 120% !important;
+    }
+    .secondary-btn {
+        padding: 5px;
+    }
 }
+
+@media screen and (max-width:767px) {}

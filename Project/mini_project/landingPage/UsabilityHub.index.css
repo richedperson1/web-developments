@@ -203,13 +203,17 @@ h4.h4-heading {
 
 .companyLogo {
     /* box-sizing: border-box; */
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     /* flex-shrink: 2; */
 }
 
 .companyLogo img {
     height: 46px;
+}
+
+.companyLogo img.go-daddy {
+    height: 38px;
 }
 
 
@@ -240,8 +244,8 @@ h4.h4-heading {
 /* Feature each box */
 
 .feature-box-common {
-    max-width: 32%;
-    /* min-width: 10%; */
+    min-width: 32%;
+    width: 200px;
     flex-direction: column;
     padding-inline: 5px var(--secondary-text-color);
     gap: 20px;
