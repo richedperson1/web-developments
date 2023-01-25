@@ -38,4 +38,14 @@
     }
 }
 
-@media screen and (max-width:767px) {}
+@media screen and (max-width:550px) {
+    div.intro-main {
+        flex-direction: column-reverse;
+    }
+    .for-480px-block {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+    }
+}
