@@ -6,33 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <style>
-        .container {
-            display: flex;
-            flex-direction: row;
-            border: 2px solid red;
-            height: 400px;
-            justify-content: center;
-            align-items: center;
+        * {
+            box-sizing: border-box;
         }
         
-        .box {
+        .container {
+            display: flex;
+            border: 1px solid red;
+            height: 400px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            /* gap: 15px; */
+            /* justify-content: space-between; */
+            align-content: flex-start;
+        }
+        
+        .box-main {
             border: 2px solid gray;
+            flex-basis: 25%;
         }
     </style>
+
     <div class="container">
-        <div class="box">box-1</div>
-        <div class="box">box-2</div>
-        <div class="box">box-3</div>
-        <div class="box">box-4</div>
-        <div class="box">box-5</div>
-        <div class="box">box-6</div>
-        <div class="box">box-7</div>
-        <div class="box">box-8</div>
+        <div class="box-main" id="div1">box-1</div>
+        <div class="box-main" id="div2">box-2</div>
+        <div class="box-main" id="div3">box-3</div>
+        <div class="box-main" id="div4">box-4</div>
+        <div class="box-main" id="div5">box-5</div>
+        <div class="box-main" id="div6">box-6</div>
+        <div class="box-main" id="div7">box-7</div>
     </div>
 </body>
 
