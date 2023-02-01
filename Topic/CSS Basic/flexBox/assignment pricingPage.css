@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Utilities class */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-boxes-css {
+    flex-direction: column;
+    border: 2px solid black;
+    box-shadow: 10px 10px 13px black;
+}
+
+.common-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    text-align: center;
+    height: 50px;
+}
+
+
+/* Price section */
+
+.price-select {
+    flex-direction: column;
+}
+
+
+/* Heading of plan */
+
+h2 {
+    display: block;
+    background-color: #000;
+    color: wheat;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+}
+
+
+/* price-boxes */
+
+.price-boxes {
+    height: 100vh;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+/* Last sign-up botton */
+
+.signup {
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+.signup button {
+    padding: 5px;
+    width: 50%;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
