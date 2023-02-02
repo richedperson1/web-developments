@@ -6,6 +6,10 @@
 
 /* Utilities class */
 
+body {
+    background-color: rgb(242, 224, 244);
+}
+
 .flex {
     display: flex;
     justify-content: center;
@@ -25,6 +29,7 @@
     border-bottom: 2px solid black;
     text-align: center;
     height: 50px;
+    background-color: rgb(235, 241, 239);
 }
 
 
