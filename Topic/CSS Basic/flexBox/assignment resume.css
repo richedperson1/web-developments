@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Left section */
+
+.left-section {
+    width: 30%;
+}
+
+
+/* Right section */
+
+.right-section {
+    width: 70%;
+}
+
+.image-profile {
+    position: relative;
+}
+
+.image-profile img {
+    width: 100%;
+}
+
+
+/* Utilites class */
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
