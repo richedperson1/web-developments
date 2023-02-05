@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+.root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
 
 /* Left section */
 
@@ -17,18 +24,64 @@
     width: 70%;
 }
 
+
+/* resume image and name */
+
 .image-profile {
     position: relative;
 }
 
 .image-profile img {
+    min-width: 200px;
     width: 100%;
+}
+
+
+/* Resume name */
+
+h2.resume-name {
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
+    overflow: hidden;
+    font-size: 100%;
 }
 
 
 /* Utilites class */
 
+.container {
+    /* max-width: 1196px; */
+    margin-inline: auto;
+    /* padding-inline: 20px; */
+}
+
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* Contact section */
+
+.addressFinal {
+    margin: 20px 0px;
+    padding-inline: 10px;
+    /* overflow: hidden; */
+}
+
+li.address {
+    position: relative;
+    margin: 5px 0px;
+    list-style: none;
+}
+
+.address h4 {
+    position: absolute;
+    left: 40px;
+    top: -3px;
 }
