@@ -65,6 +65,10 @@ h2.resume-name {
     display: flex;
 }
 
+.padding-l-20 {
+    padding-left: 20px;
+}
+
 
 /* Contact section */
 
@@ -80,8 +84,43 @@ li.address {
     list-style: none;
 }
 
+i {
+    color: teal;
+}
+
 .address h4 {
     position: absolute;
     left: 40px;
     top: -3px;
+}
+
+
+/* Skill section */
+
+.skill-division {
+    margin: 0 0px 20px 10px;
+}
+
+.progres-90-per {
+    width: 90%;
+    background: teal;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+div.progress-bar {
+    width: 50%;
+    background: rgb(143, 123, 123);
+    border-radius: 30px;
+}
+
+.skill-box-shape p {
+    margin: 10px 0;
+}
+
+.skill-box-shape {
+    margin-left: 10px;
 }
