@@ -101,8 +101,8 @@ i {
     margin: 0 0px 20px 10px;
 }
 
-.progres-90-per {
-    width: 90%;
+.progres-per {
+    /* width: 90%; */
     background: teal;
     border-radius: 30px;
     border-top-left-radius: 30px;
@@ -112,7 +112,7 @@ i {
 }
 
 div.progress-bar {
-    width: 50%;
+    width: 70%;
     background: rgb(143, 123, 123);
     border-radius: 30px;
 }
