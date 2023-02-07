@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .root {
@@ -127,6 +128,21 @@ i {
     position: absolute;
     left: 40px;
     top: -3px;
+}
+
+.address {
+    gap: 20px;
+}
+
+ul {
+    box-sizing: border-box;
+}
+
+.email-id {
+    /* display: inline; */
+    font-weight: 700;
+    overflow-x: scroll;
+    /* width: 10%; */
 }
 
 
