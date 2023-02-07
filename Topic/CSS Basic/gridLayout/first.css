@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px 10px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    grid-template-rows: repeat(3, 100px);
+}
+
+.box {
+    background: #9f7a7a;
+    border: 0.5px solid red;
+    text-align: center;
+}
