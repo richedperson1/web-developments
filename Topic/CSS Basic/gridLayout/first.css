@@ -4,16 +4,31 @@
     box-sizing: border-box;
 }
 
+:root {
+    --border-radies-section: 20px;
+}
+
 .container {
     margin: 20px 10px;
     border: 2px solid black;
     display: grid;
-    grid-template-columns: auto 60% auto;
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    background: linear-gradient(186deg, #9198c5, #1198e5);
+    border-radius: var(--border-radies-section);
 }
 
 .box {
     background: #9f7a7a;
+    padding: 20px;
     border: 0.5px solid red;
     text-align: center;
+}
+
+#boxes-num-8 {
+    grid-column-start: 2;
+    grid-column-end: -2;
+    grid-row: 1 / span 5;
+    /* align-self: center */
+    /* justify-self: center */
 }
