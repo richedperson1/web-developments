@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    /* gap: 30px; */
+    justify-content: center;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.button-option {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+#number-1 {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+}
+
+#number-2 {
+    grid-column: 1 / span 2;
+}
+
+#number-17 {
+    grid-column: 1 / span 3;
+}
