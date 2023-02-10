@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
-.calculator {
-    display: grid;
-    grid-template-columns: repeat(4, 10%);
-    /* gap: 30px; */
+.container {
+    border: 1px solid black;
+    display: flex;
     justify-content: center;
+}
+
+.calculator {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     margin-top: 10%;
     justify-content: center;
 }
@@ -24,9 +29,15 @@
 }
 
 #number-1 {
+    background-color: black;
+    color: white;
     grid-column: 1 / -1;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+}
+
+.bg-color-pitch {
+    background-color: #db930b;
 }
 
 #number-2 {
