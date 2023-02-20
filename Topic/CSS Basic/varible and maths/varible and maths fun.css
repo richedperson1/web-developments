@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-box {
+    height: 200px;
+    aspect-ratio: 1 / 1;
+    border: 2px solid black;
+    width: 80%;
+    margin-inline: auto;
+}
+
+.box-num {
+    width: 60px;
+    display: inline-block;
+    border: 2px solid red;
+    background-color: azure;
+}
