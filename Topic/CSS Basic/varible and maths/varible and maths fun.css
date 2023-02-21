@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --varible-for-color: red
+}
+
 .main-box {
     height: 200px;
     aspect-ratio: 1 / 1;
@@ -12,9 +16,27 @@
     margin-inline: auto;
 }
 
+#container-1 {
+    --varible-for-color: #25a6;
+    background-color: var( --varible-for-color);
+}
+
+#container-2 {
+    background-color: var( --varible-for-color);
+}
+
 .box-num {
     width: 60px;
     display: inline-block;
     border: 2px solid red;
     background-color: azure;
+}
+
+a {
+    display: inline-block;
+    color: rgb(238, 70, 14);
+}
+
+a:visited {
+    background-color: rgb(4, 4, 4);
 }
