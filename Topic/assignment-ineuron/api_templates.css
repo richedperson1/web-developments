@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+:root {
+    --color: #ff505f;
+    --text-color: #ffc233;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    background-color: #060303;
+    background-image: linear-gradient(rgba(0, 0, 0.1), rgba(0, 0, 0.1, 0.3)), url("assets/background.png");
+    object-fit: scale-down;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+}
+
+.container {
+    max-width: 1150px;
+    margin-inline: auto;
+}
+
+
+/* Utilities class */
+
+.flex-col {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.color-shape {
+    background-color: var(--color);
+    padding: 5px;
+    cursor: pointer;
+    color: aliceblue;
+    width: max(15%, 100px);
+    border-radius: 10px;
+}
+
+
+/* ------------------------------ */
+
+
+/* ---------- NAVBAR ------------ */
+
+.navbar {
+    margin-top: 5%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 2rem;
+    color: var(--text-color);
+    /* flex-direction: column; */
+}
+
+
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+
+
+/* ---------- HERO ------------ */
+
+.hero-heading {
+    margin: 10% 0;
+    color: rgb(229, 185, 26);
+    font-size: 8rem;
+    text-align: center;
+}
+
+.bottom {
+    position: relative;
+    left: 30%;
+}
+
+.button-large {
+    padding: 10px;
+    /* width: 20%;
+    border-radius: 10px; */
+}
+
+
+/* ------------------------------ */
+
+@media screen and (max-width:800px) {
+    html {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    html {
+        font-size: 5px;
+    }
+    .container {
+        max-width: 100%;
+    }
+}
