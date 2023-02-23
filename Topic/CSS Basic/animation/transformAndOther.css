@@ -1,0 +1,17 @@
+.box {
+    height: 300px;
+    width: 300px;
+    color: white;
+    background-color: #ccc;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.original {
+    background-color: aqua;
+    transform: scale(1.58) skew(20deg, 20deg);
+    /* background: #aa8989 !important; */
+}
