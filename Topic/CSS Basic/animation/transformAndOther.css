@@ -13,5 +13,52 @@
 .original {
     background-color: aqua;
     transform: scale(1.58) skew(20deg, 20deg);
-    /* background: #aa8989 !important; */
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    position: relative;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    /* transition: 1s ease-in-out; */
+}
+
+.button::before {
+    content: "";
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: 0px;
+    transform: scale(50%, 100%);
+    background-color: rgb(58, 201, 153);
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.button:hover {
+    border-color: rgb(58, 201, 153);
+}
+
+.button:hover::before {
+    background-color: rgb(58, 201, 153);
+    transform: scaleX(100%);
 }
