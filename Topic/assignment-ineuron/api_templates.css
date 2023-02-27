@@ -17,11 +17,17 @@ html {
 body {
     width: 100%;
     background-color: #060303;
-    background-image: linear-gradient(rgba(0, 0, 0.1), rgba(0, 0, 0.1, 0.3)), url("assets/background.png");
+    background-image: url("assets/background.png");
     object-fit: scale-down;
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(100%);
+    background-color: rgba(72, 94, 141, 0.932);
+    /* Tint color */
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: top center;
+    z-index: -1;
 }
 
 .container {
