@@ -1,0 +1,39 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+:root {
+    --upper-size: 20px;
+}
+
+.btn:nth-child(1) {
+    width: max(12%, 120px);
+    display: inline-block;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.badge {
+    height: var( --upper-size);
+    width: var( --upper-size);
+    position: absolute;
+    display: inline-block;
+    background: #000;
+    color: aliceblue;
+    border-radius: 50%;
+    top: -25%;
+    left: 95%;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
