@@ -1,0 +1,20 @@
+div li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.pseudo-ele {
+    position: relative;
+}
+
+.pseudo-ele::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ab2424;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
