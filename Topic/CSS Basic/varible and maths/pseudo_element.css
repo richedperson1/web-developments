@@ -18,3 +18,34 @@ div li {
     left: 20px;
     top: 0px;
 }
+
+.hover-object {
+    margin: 50px 20px;
+}
+
+.submit-btn {
+    padding: 8px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.submit-btn::before {
+    content: "";
+    width: 80%;
+    border: 1px solid rgb(244, 107, 107);
+    position: absolute;
+    transform-origin: left;
+    top: 70%;
+    transform: scale(0);
+    transition: 1s ease-in-out;
+}
+
+.submit-btn:hover {
+    color: #fefefe;
+    background-color: #ab2424;
+}
+
+.submit-btn:hover::before {
+    transform: scale(100%);
+    background-color: #ab2424;
+}
