@@ -24,6 +24,7 @@ button {
     border-radius: 50px;
     text-align: center;
     background: #07245b;
+    background: linear-gradient(#20457c, #052057);
     font-size: 1.2rem;
     font-weight: 700;
     cursor: pointer;
