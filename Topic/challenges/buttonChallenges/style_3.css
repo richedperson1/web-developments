@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 600px;
+}
+
+.container {
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 15px;
+    color: #fefefe;
+    width: 150%;
+    border-radius: 50px;
+    text-align: center;
+    background: #07245b;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 10px 9px 0px rgba(0, 0, 0, 0.1);
+}
