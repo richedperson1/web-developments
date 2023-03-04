@@ -43,17 +43,25 @@
     color: #fefefe
 }
 
+.logo {
+    margin-left: 10%;
+}
+
+.social-media-links {
+    font-size: x-large;
+}
+
+.twitter-cls {
+    color: #1da1f2;
+}
+
+.fab.fa-facebook {
+    color: #1877f2;
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
 
 /* Adding logo from images */
-
-#Face-book {
-    background-image: url('assets/Facebook-logo.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    aspect-ratio: 1 / 1;
-    background-size: 50px 50px;
-    /* background-color: #fefefe; */
-}
