@@ -63,5 +63,15 @@
     color: #e4405f;
 }
 
+.facebook-cls {
+    position: relative;
+    top: -10px;
+}
+
+.facebook-cls::before {
+    content: "";
+    position: absolute;
+}
+
 
 /* Adding logo from images */
