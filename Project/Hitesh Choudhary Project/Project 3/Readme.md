@@ -18,10 +18,3 @@ HTML, CSS
 - [@Rutvik Jaiswal](https://www.github.com/richedperson1)
 
 
-## Features
-
-- DSA for logic building
-- DSA in python
-- Interview Quection
-- Help to build confidance
-
