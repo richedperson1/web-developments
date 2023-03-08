@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --first-color: #000000;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    gap: 10px;
+    background-position: center;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fefefe;
+    animation: up-down 0.4s ease-in infinite alternate;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(30px);
+    }
+}
