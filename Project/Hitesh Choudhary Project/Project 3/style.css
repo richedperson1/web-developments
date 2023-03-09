@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Lato:ital,wght@0,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    color: #f1f0ef;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #2b2922;
+}
+
+.container-header {
+    background-color: #2b2922;
+}
+
+.header-section {
+    justify-content: space-between;
+}
+
+
+/* Utilities class */
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1236px;
+    margin-inline: auto;
+}
+
+.common-color {
+    background-color: #2b2922;
+    color: #fefefe;
+    padding-top: 20px;
+    padding: 20px 10px;
+}
+
+
+/* Nav bar Properties */
+
+.nav-bar {
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+a.links {
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 1.2rem;
+}
+
+#get-started {
+    display: inline-block;
+    border: 2px solid #60582b;
+    color: #897a32;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Main content properties */
+
+main.main-class {
+    gap: 10px;
+    margin-top: 60px;
+}
+
+main.main-class h2 {
+    font-size: 5rem;
+}
+
+div.intro {
+    width: 55%;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+
+/* footer section */
+
+.footer {
+    height: 500px;
+    background-color: #2b2922;
+    background-image: url("./assets/image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+img.footer-img {
+    height: 300px;
+    width: 100%;
+}
