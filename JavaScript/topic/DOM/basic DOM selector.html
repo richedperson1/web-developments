@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            height: 75vh;
+            width: 100%;
+            background-color: aquamarine;
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+            /* grid-template-columns: repeat(4, auto); */
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            align-content: center;
+        }
+
+        .boxes {
+            height: 150px;
+            width: 250px;
+            background-color: rgb(153, 44, 255);
+            border: 1px solid black;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+    </style>
+    <main class="container">
+        <div class="boxes" id="box-num-1">1</div>
+        <div class="boxes" id="box-num-2">2</div>
+        <div class="boxes" id="box-num-3">3</div>
+        <div class="boxes" id="box-num-4">4</div>
+        <div class="boxes" id="box-num-5">5</div>
+    </main>
+    <script src="./basic DOM selector.js"></script>
+</body>
+
+</html>
