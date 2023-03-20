@@ -35,3 +35,31 @@ addingToggleBtn();
 //         });
 //     });
 //   }
+
+
+// Adding Class and child to the div 
+
+const second_div = document.querySelector(".second")
+second_div.classList.add("container")
+
+const cursor = (box, event) => {
+    box.innerHTML = `${event.offsetY} ${event.offsetX}`
+}
+
+const addingChild = () => {
+    const second_div = document.querySelector(".second");
+    numberChild = 5;
+    for (let ind = 0; ind < numberChild; ind++) {
+        let childing = document.createElement("section");
+
+        childing.classList.add("boxes");
+        childing.classList.add("boxe-style");
+
+        childing.addEventListener("mousemove", function eventing(event) {
+            cursor(childing, event);
+        });
+
+        second_div.appendChild(childing);
+    }
+}
+addingChild()
