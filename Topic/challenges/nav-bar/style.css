@@ -1,0 +1,56 @@
+/* Utils function */
+
+.flex {
+    display: flex;
+}
+
+
+/* Nav-bar section  */
+
+.nav-bar-task {
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    flex-direction: column;
+    /* align-items:; */
+    background-color: #3a3e3adf;
+    padding: 5px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fefefe;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.hidden-items {
+    display: none;
+}
+
+.navbar-links {
+    gap: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-bar-menu {
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.menu-card {
+    position: absolute;
+    right: 16px;
+    top: 22px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #56deff;
+}
