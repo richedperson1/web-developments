@@ -8,4 +8,6 @@ const event_click = () => {
 const toggler = () => {
     nav_bar_btn.addEventListener("click", event_click);
 }
+
+
 toggler()
