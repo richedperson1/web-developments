@@ -4,6 +4,10 @@
     display: flex;
 }
 
+* {
+    margin: 0;
+}
+
 
 /* Nav-bar section  */
 
@@ -27,6 +31,8 @@ a {
     display: block;
     text-align: center;
     padding: 10px;
+    width: 70%;
+    margin-inline: auto;
 }
 
 .hidden-items {
