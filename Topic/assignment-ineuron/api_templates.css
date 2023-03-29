@@ -92,10 +92,12 @@ main {
     /* flex-direction: column; */
 }
 
-.list-item {
+
+
+.list-item a {
+    color: var(--text-color);
     cursor: pointer;
 }
-
 
 /* ---------- HERO ------------ */
 
