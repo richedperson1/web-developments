@@ -9,6 +9,7 @@
 :root {
     --color: #ff505f;
     --text-color: #ffc233;
+    --white-color: #fefefe
 }
 
 html {
@@ -23,6 +24,7 @@ body {
 main {
     background-color: #060303;
     background-image: url("assets/background.png");
+    background-image: url("https://images.pexels.com/photos/3887985/pexels-photo-3887985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     object-fit: scale-down;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,9 +33,10 @@ main {
     /* Tint color */
     background-blend-mode: multiply;
     background-size: cover;
-    background-position: top center;
+    background-position: middle center;
     z-index: -1;
     padding-top: 3%;
+    border-bottom: 1px solid white;
 }
 
 .container {
@@ -121,11 +124,58 @@ main {
 
 /* Menu section */
 
-.first-menu {
-    height: 500px;
-    width: 500px;
-    background-color: gray;
+.container-menu-card {
+    background-color: rgb(73, 71, 64);
+}
 
+.menu-h2 {
+    text-align: center;
+    font-size: 5rem;
+    padding: 3rem 0;
+    color: #fefefe;
+}
+
+section.menu-card {
+    padding-bottom: 2%;
+}
+
+/* Dish menu card */
+.first-menu {
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.dish-menu {
+    width: 400px;
+    height: 300px;
+    background-color: #ff505f;
+    border: 2px solid #fefefe;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Util for menu card  */
+.menu-card-util {
+    object-fit: scale-down;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+    background-color: rgba(72, 94, 141, 0.932);
+    /* background-blend-mode: multiply; */
+    background-size: cover;
+    background-position: left center;
+}
+
+/* Dish 1 */
+.dish-1 {
+    background-image: url("https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+    color: var(--white-color);
+    font-size: 3rem;
 }
 
 /* ------------------------------ */
@@ -144,4 +194,12 @@ main {
     .container {
         max-width: 100%;
     }
+}
+
+
+/* Hover properties */
+
+/* Nav bar hover links */
+.list-item a:hover {
+    text-decoration: underline;
 }
