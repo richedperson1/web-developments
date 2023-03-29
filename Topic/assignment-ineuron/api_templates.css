@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Red Rose", cursive;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -16,6 +17,10 @@ html {
 
 body {
     width: 100%;
+
+}
+
+main {
     background-color: #060303;
     background-image: url("assets/background.png");
     object-fit: scale-down;
@@ -28,11 +33,14 @@ body {
     background-size: cover;
     background-position: top center;
     z-index: -1;
+    padding-top: 3%;
 }
 
 .container {
-    max-width: 1150px;
+    max-width: 1300px;
     margin-inline: auto;
+    padding-inline: 10px;
+
 }
 
 
@@ -60,17 +68,20 @@ body {
 }
 
 
-/* ------------------------------ */
-
 
 /* ---------- NAVBAR ------------ */
 
 .navbar {
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
     gap: 10%;
     justify-content: center;
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .list {
     display: flex;
@@ -81,11 +92,9 @@ body {
     /* flex-direction: column; */
 }
 
-
-/* ------------------------------ */
-
-
-/* ------------------------------ */
+.list-item {
+    cursor: pointer;
+}
 
 
 /* ---------- HERO ------------ */
@@ -108,6 +117,14 @@ body {
     border-radius: 10px; */
 }
 
+/* Menu section */
+
+.first-menu {
+    height: 500px;
+    width: 500px;
+    background-color: gray;
+
+}
 
 /* ------------------------------ */
 
@@ -121,6 +138,7 @@ body {
     html {
         font-size: 5px;
     }
+
     .container {
         max-width: 100%;
     }
