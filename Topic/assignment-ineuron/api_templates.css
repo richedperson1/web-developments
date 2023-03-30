@@ -9,7 +9,8 @@
 :root {
     --color: #ff505f;
     --text-color: #ffc233;
-    --white-color: #fefefe
+    --white-color: #fefefe;
+    --section-second-color: rgb(103, 134, 128);
 }
 
 html {
@@ -48,6 +49,9 @@ main {
 
 
 /* Utilities class */
+.bottom-border-2px-white {
+    border-bottom: 2px solid var(--white-color);
+}
 
 .flex-col {
     display: flex;
@@ -135,6 +139,13 @@ main {
     color: #fefefe;
 }
 
+.section-h2 {
+    text-align: center;
+    font-size: 5rem;
+    padding: 3rem 0;
+    color: #fefefe;
+}
+
 section.menu-card {
     padding-bottom: 2%;
 }
@@ -176,6 +187,13 @@ section.menu-card {
 
     color: var(--white-color);
     font-size: 3rem;
+}
+
+
+/* Contact section */
+
+.contant-us {
+    background-color: var(--section-second-color);
 }
 
 /* ------------------------------ */

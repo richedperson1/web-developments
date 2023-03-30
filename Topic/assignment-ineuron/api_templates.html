@@ -54,7 +54,7 @@
                     <h1 class="hero-heading">
                         A Restaurant That Only Serves Delicious Food
                     </h1>
-                    <button class="button-large color-shape">Read Our Menu</button>
+                    <button class="button-large color-shape" id="read-menu-btn">Order Dream</button>
                     <div class="bottom">
                         <div>
                             <!--  -->
@@ -65,10 +65,10 @@
             </section>
         </div>
     </main>
-    <div class="container-menu-card">
+    <div class="container-menu-card bottom-border-2px-white">
 
         <section class="menu-card container" id="Menu">
-            <h2 class="menu-h2">Menu</h2>
+            <h2 class="section-h2">Menu</h2>
             <div class="first-menu flex">
                 <div class="dish-menu flex dish-1 menu-card-util ">
                     <h2>Burger</h2>
@@ -81,6 +81,20 @@
             </div>
         </section>
     </div>
+
+    <div class="contant-us" id="contact-us">
+        <section class="contact container">
+            <h2 class="contact-h2 section-h2">Contact</h2>
+        </section>
+    </div>
+    <script>
+
+        const button = document.querySelector('#read-menu-btn');
+        button.addEventListener('click', () => {
+            const element = document.querySelector('#Menu');
+            element.scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>
