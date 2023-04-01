@@ -130,6 +130,8 @@ main {
     text-align: center;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Playball', cursive;
+    animation-name: fadeInLeft;
+    animation-duration: 1.2s;
 
 }
 
@@ -149,6 +151,7 @@ main {
 
 .container-menu-card {
     background-color: rgb(73, 71, 64);
+
 }
 
 .menu-h2 {
@@ -173,7 +176,8 @@ section.menu-card {
 .first-menu {
     gap: 20px;
     flex-wrap: wrap;
-
+    animation-name: fadeInLeft;
+    animation-duration: 1.2s;
 }
 
 .box-shape-w400-h300 {
