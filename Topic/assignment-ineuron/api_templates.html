@@ -16,6 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="api_templates.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
@@ -27,7 +31,7 @@
             <section aria-label="navbar" id="Home">
                 <nav class="navbar">
                     <div>
-                        <img src="./assets/white-logo.png" alt="logo" class="logo" />
+                        <img src="./assets/Rutvik2.svg" alt="logo" class="logo" />
                     </div>
                     <div class="nav-bar-element">
                         <ul class="list">
@@ -52,7 +56,7 @@
             <section aria-label="hero">
                 <div class="hero flex-col">
                     <h1 class="hero-heading">
-                        A Restaurant That Only Serves Delicious Food
+                        "A Restaurant That Only Serves Delicious Food "
                     </h1>
                     <button class="button-large color-shape" id="read-menu-btn">Order Dream</button>
                     <div class="bottom">
@@ -70,21 +74,70 @@
         <section class="menu-card container" id="Menu">
             <h2 class="section-h2">Menu</h2>
             <div class="first-menu flex">
-                <div class="dish-menu flex dish-1 menu-card-util ">
-                    <h2>Burger</h2>
-                    <p class="price">₹ 23</p>
+                <div class="dish-menu box-shape-w400-h300  flex dish-1 menu-card-util ">
+                    <h2>Burger ₹ 249</h2>
+                    <!-- <p class="price">₹ 23</p> -->
                 </div>
-                <div class="dish-menu flex dish-2 menu-card-util ">Pasta</div>
-                <div class="dish-menu flex dish-3 menu-card-util ">Red Pasta</div>
-                <div class="dish-menu flex dish-4 menu-card-util ">Pav Bhaji</div>
-                <div class="dish-menu flex dish-5 menu-card-util ">Birayani</div>
+                <div class="dish-menu box-shape-w400-h300  flex dish-2 menu-card-util dish-menu-h2 ">
+                    <h2>Pan Cake ₹ 149</h2>
+                </div>
+                <div class="dish-menu box-shape-w400-h300  flex dish-3 menu-card-util dish-menu-h2">
+                    <h2>Pasta ₹ 129</h2>
+                </div>
+                <div class="dish-menu box-shape-w400-h300  flex dish-4 menu-card-util dish-menu-h2">
+                    <h2>Pav Bhaji ₹ 99</h2>
+                </div>
+
+                <div class="dish-menu box-shape-w400-h300  flex dish-5 menu-card-util dish-menu-h2">
+                    <h2>Birayani ₹ 199</h2>
+                </div>
             </div>
         </section>
     </div>
 
-    <div class="contant-us" id="contact-us">
-        <section class="contact container">
+    <div class="contant-us " id="contact-us">
+        <section class="contact container pad-bottom-3per">
             <h2 class="contact-h2 section-h2">Contact</h2>
+            <div class="contact-details flex">
+                <div class="box-shape-w400-h300 text-align flex-col">
+                    <h4 class="contact-h4">About</h4>
+                    <p class="contact-about-describe">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam omnis quidem quibusdam,
+                        nobis eum nostrum beatae sit facilis adipisci velit perspiciatis voluptatem tempora nemo, illo
+                        rerum minima earum quod.
+                    </p>
+                </div>
+                <div class="box-shape-w400-h300 text-align flex-col">
+                    <h4 class="contact-social-medial contact-h4">Social Media</h4>
+                    <div class="social-media-icon flex">
+                        <p class="logo-i-icon">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </p>
+                        <p class="logo-i-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </p>
+                        <p class="logo-i-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="box-shape-w400-h300 text-align flex-col">
+                    <h4 class="contact-address contact-h4">
+                        Contact Us
+                    </h4>
+                    <div class="address">
+
+                        <p class="address-text">500 Terry Francois St.</p>
+                        <p class="address-text">San Francisco,</p>
+                        <p class="address-text">CA 94158</p>
+                        <p class="address-text">info@example.com</p>
+                        <p class="address-text">contact@example.com</p>
+
+                    </div>
+
+
+                </div>
+            </div>
         </section>
     </div>
     <script>

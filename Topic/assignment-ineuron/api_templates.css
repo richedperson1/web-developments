@@ -1,3 +1,8 @@
+/* Font importing */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playball&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +16,7 @@
     --text-color: #ffc233;
     --white-color: #fefefe;
     --section-second-color: rgb(103, 134, 128);
+    --background-second-color: #000000;
 }
 
 html {
@@ -24,8 +30,10 @@ body {
 
 main {
     background-color: #060303;
-    background-image: url("assets/background.png");
-    background-image: url("https://images.pexels.com/photos/3887985/pexels-photo-3887985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-image: url("assets/background.png"); */
+    background-image: url("assets/background_img_2.jpg");
+    /* background-image: url("https://images.pexels.com/photos/3887985/pexels-photo-3887985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-attachment: fixed;
     object-fit: scale-down;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +42,7 @@ main {
     /* Tint color */
     background-blend-mode: multiply;
     background-size: cover;
-    background-position: middle center;
+    background-position: right center;
     z-index: -1;
     padding-top: 3%;
     border-bottom: 1px solid white;
@@ -49,6 +57,10 @@ main {
 
 
 /* Utilities class */
+.pad-bottom-3per {
+    padding-bottom: 3%;
+}
+
 .bottom-border-2px-white {
     border-bottom: 2px solid var(--white-color);
 }
@@ -99,7 +111,10 @@ main {
     /* flex-direction: column; */
 }
 
-
+.logo {
+    width: 60%;
+    filter: invert(1);
+}
 
 .list-item a {
     color: var(--text-color);
@@ -113,11 +128,15 @@ main {
     color: rgb(229, 185, 26);
     font-size: 8rem;
     text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Playball', cursive;
+
 }
 
 .bottom {
     position: relative;
     left: 30%;
+    visibility: hidden;
 }
 
 .button-large {
@@ -157,14 +176,17 @@ section.menu-card {
 
 }
 
-.dish-menu {
+.box-shape-w400-h300 {
     width: 400px;
     height: 300px;
+}
+
+.dish-menu {
     background-color: #ff505f;
     border: 2px solid #fefefe;
     align-items: center;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     text-align: center;
     border-radius: 20px;
 }
@@ -182,18 +204,84 @@ section.menu-card {
 }
 
 /* Dish 1 */
-.dish-1 {
-    background-image: url("https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-
-    color: var(--white-color);
+.dish-menu-h2 {
     font-size: 3rem;
 }
 
+.dish-1 {
+    /* background-image: url("https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-image: url("./assets/burger.jpeg");
+
+    color: var(--background-second-color);
+    font-size: 3rem;
+}
+
+.dish-2 {
+    background-image: url("./assets/pan\ cake.jpeg");
+    color: var(--white-color);
+}
+
+.dish-3 {
+    background-image: url("./assets/pasta.jpg");
+    color: var(--background-second-color);
+    background-position: top center;
+}
+
+.dish-4 {
+    background-image: url("./assets/pav\ bhaji.jpeg");
+    color: var(--white-color);
+    background-position: top center;
+}
+
+.dish-5 {
+    background-image: url("./assets/birayani.jpeg");
+    color: var(--white-color);
+    background-position: top center;
+}
 
 /* Contact section */
 
 .contant-us {
-    background-color: var(--section-second-color);
+    background-color: var(--background-second-color);
+}
+
+.contact-details {
+    gap: 20px;
+    justify-content: space-between;
+    color: var(--white-color);
+}
+
+.contact-h4 {
+    font-size: 3rem;
+}
+
+.contact-about-describe {
+    font-size: 1.5rem;
+}
+
+.text-align {
+    text-align: center;
+    gap: 20px;
+}
+
+.social-media-icon {
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.logo-i-icon {
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.logo-i-icon i {
+    font-size: x-large;
+    filter: invert(100%);
 }
 
 /* ------------------------------ */
@@ -220,4 +308,8 @@ section.menu-card {
 /* Nav bar hover links */
 .list-item a:hover {
     text-decoration: underline;
+}
+
+.logo-i-icon:hover {
+    filter: invert(100%);
 }
