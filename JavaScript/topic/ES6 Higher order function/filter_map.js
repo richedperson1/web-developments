@@ -70,8 +70,6 @@ let arr_assign2 = ["asa", "", "Jaiswal", "Patil", "Hitesha", "jaJ"]
 
 // let palim = arr_assign2.filter(check_palim)
 // console.log(palim);
-
-
 // Map function Assignment
 
 //1.  Modify the Numbers and make them String and return an array.
@@ -104,8 +102,6 @@ let first_element = users.filter((ele) => {
 console.log(first_element);
 
 // b. Filter out the users whose lastName starts with the letter L.
-
-
 
 let last_ele = users.filter((ele) => {
     if (ele.lastName.endsWith("m")) {
