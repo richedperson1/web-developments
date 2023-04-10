@@ -37,4 +37,37 @@ let course2 = {
     }
 }
 
-course2.greating()
+// course2.greating()
+
+
+// Convert array into object
+// let array = [2, 3]
+
+
+// let mapObj = new Map()
+// mapObj["first"] = 5
+// mapObj.set(1, "one")
+// mapObj.set(true, "one")
+// mapObj.set("1", "one")
+
+// console.log(mapObj);
+// for (let [k, v] of mapObj) {
+//     console.log(typeof k,typeof v);
+// }
+
+
+
+// Closure
+
+function outer() {
+    let varible = "Rutvik is alway best";
+    function inner() {
+        console.log(varible);
+        return varible
+    }
+    return inner;
+}
+
+const inner_fun_call = outer()
+let first = inner_fun_call();
+console.log("============>", first);
