@@ -28,7 +28,7 @@ const varible1 = () => {
 
 // Creating function inside the object and accessing object parameter through it
 
-let course2 = {
+var course2 = {
     "sirname": "Jaiswal",
     "name": "Rutvik",
     "Mobile": 9673062604,
@@ -70,4 +70,14 @@ function outer() {
 
 const inner_fun_call = outer()
 let first = inner_fun_call();
-console.log("============>", first);
+// console.log("============>", first);
+
+let function2 = function () {
+    console.log("Hello I'm adding using object");
+}
+
+course2["Heelo"] = function2
+console.log(course2);
+
+
+console.log(course2.__proto__);
