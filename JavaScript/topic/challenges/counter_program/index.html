@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .counter {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-direction: column;
+        }
+
+
+        .shape {
+            font-size: 1.3rem;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn {
+            display: flex;
+            gap: 30px;
+        }
+
+        .display {
+            background-color: aquamarine;
+            width: 400px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: 800;
+        }
+    </style>
+    <main class="counter">
+        <div class="display">
+            <p>0</p>
+        </div>
+
+        <div class="btn">
+            <button class="increament shape">Increase</button>
+            <button class="Reset shape">Reset</button>
+            <button class="descreament shape">Decrease</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
