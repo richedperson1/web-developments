@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
+    <title>Janken - Rock Paper Scissor</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+    header {
+        background-color: #ff6666;
+        padding: 2vmin 0;
+        font-family: 'Chilanka', cursive;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 4em;
+        color: #c1e7e1;
+    }
+
+    body {
+        background-color: #4DB380;
+        font-family: 'Baloo Tamma 2', cursive;
+    }
+
+    .score-board {
+        color: #fee11a;
+        text-align: center;
+        font-size: 2.5em;
+        padding: 2vmin;
+    }
+
+    .score-board .userscore,
+    .score-board .compscore,
+    .score-board span {
+        display: inline-block;
+        padding: 0 1vmin;
+    }
+
+    /* 
+.score-board .userscore{
+    position: absolute;
+    top: 35px;
+    left: -40px;
+}
+
+
+.score-board .compscore{
+    position: absolute;
+    top: 35px;
+    right: -40px;
+} */
+
+    .score-board span {
+        font-size: 2em;
+        color: #fff8e7;
+    }
+
+
+    .result {
+        text-align: center;
+        margin: 1vmin auto 3vmin auto;
+        font-size: 2em;
+    }
+
+    #result-final-stat {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #47030f;
+    }
+
+    .choices {
+        margin: 5vmin auto;
+        text-align: center;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    .choice {
+        padding: 3vmin 3vmin;
+        margin: 0 2vmin;
+        display: inline-block;
+        border-radius: 50%;
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }
+
+    .choice:hover {
+        background-color: #f75555;
+        border: 2px solid #47030f;
+
+
+    }
+
+    .name {
+        color: #e7e3ff;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Janken - Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <div class="score-board">
+            <div class="userscore">USER</div>
+            <span id="userScoreVal">0</span> : <span id="compScoreVal">0</span>
+            <div class="compscore">COMP</div>
+        </div>
+
+        <div class="result">
+            <p id="result-user-stat">User:</p>
+            <p id="result-comp-stat">Computer:</p>
+            <p id="result-final-stat">Winner:</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="assets/rock.png" alt="rock" />
+            </div>
+            <div class="choice" id="p">
+                <img src="assets/paper.png" alt="paper" />
+            </div>
+            <div class="choice" id="s">
+                <img src="assets/scissors.png" alt="scissors" />
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
