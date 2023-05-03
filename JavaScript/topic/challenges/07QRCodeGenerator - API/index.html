@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code | Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+    body {
+        background-color: #1B98F5;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+
+    }
+
+    .main {
+        background-color: #fff;
+        width: 35%;
+        height: 300px;
+        /* 500px */
+        margin: auto;
+        margin-top: 15%;
+    }
+
+    .title {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .data {
+        width: 85%;
+        margin-top: 20px;
+        height: 14%;
+        text-align: center;
+    }
+
+    .submit {
+        width: 87%;
+        margin-top: 50px;
+        height: 14%;
+        text-align: center;
+        border: none;
+        background-color: #1b98f5;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    img {
+        margin-top: 40px;
+        /* margin-left: 35%; */
+        display: none;
+    }
+</style>
+
+<body>
+    <div class="main" id="main">
+        <h1 class="title"><u> QR Code Generator </u></h1>
+
+        <input type="text" class="data" placeholder="Enter The Data To Generate QR Code" id="input" required="true">
+
+        <button class="submit" id="submit">Generate QR Code</button>
+        <div id="nameError" style="visibility:hidden; color:red;">Please enter Value</div>
+
+    </div>
+    <img src="./assets/QR_code.png" alt="QR Code" id="img">
+</body>
+<script src="script.js"></script>
+
+</html>
