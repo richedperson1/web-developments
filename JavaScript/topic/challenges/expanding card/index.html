@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-content {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        gap: 20px;
+        justify-content: flex-end;
+        background-color: black;
+    }
+
+    .first-img {
+        background-image: url("https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+        /* height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat; */
+    }
+
+    .second-img {
+        background-image: url("https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
+    }
+
+    .third-img {
+        background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80")
+    }
+
+    .Fourth-img {
+        background-image: url("https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80")
+    }
+
+    .final-img {
+        background-image: url("https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
+    }
+
+    .image-style {
+        background-size: auto 100%;
+        height: 90vh;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        cursor: pointer;
+        background-position: center;
+        border-radius: 50px;
+        /* transition: flex 0.7s ease-in; */
+        position: relative;
+        transform-origin: left;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 20px;
+        justify-content: center;
+
+    }
+
+    .non-active {
+        transition: 1s ease;
+        flex: 0.4;
+
+    }
+
+    .active {
+
+        flex: 4;
+    }
+
+    .image-title {
+        display: none;
+    }
+
+    .title-shape {
+        color: rgb(238, 232, 232);
+        z-index: 5;
+        font-weight: bolder;
+        font-size: 2.5rem;
+    }
+</style>
+
+<body>
+    <div class="main-content">
+        <div class="first-img image-style non-active  active">
+            <span class=" title-shape">Explored World</span>
+        </div>
+
+        <div class="second-img image-style non-active">
+            <span class="image-title title-shape">Wild Forest</span>
+        </div>
+
+        <div class="third-img image-style non-active">
+            <span class="image-title title-shape">Sunny Beach</span>
+        </div>
+
+        <div class="Fourth-img image-style non-active">
+            <span class="image-title title-shape">City on Winter</span>
+        </div>
+        <div class="final-img image-style non-active">
+            <span class="image-title title-shape">Moutain</span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
