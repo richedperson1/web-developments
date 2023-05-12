@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <input type="text" value="OFF" readonly />
+        <button type="button">Click Me</button>
+    </div>
+
+    <script>
+        let arr = [1, 2, 3, 4, 5];
+
+
+
+        let brr = arr.map((val) => {
+            return val * 3
+        })
+
+        console.log(brr);
+
+        const buttonElem = document.querySelector("#wrapper button");
+        const inputElem = document.querySelector("#wrapper input");
+
+        buttonElem.addEventListener('click', () => {
+            const oldText = inputElem.value;
+            return inputElem.value = oldText === "ON" ? "OFF" : "ON";
+        });
+    </script>
+</body>
+
+</html>
