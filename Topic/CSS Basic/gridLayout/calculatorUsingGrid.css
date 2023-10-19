@@ -47,3 +47,23 @@
 #number-17 {
     grid-column: 1 / span 3;
 }
+
+
+/* Second Container CSS */
+
+.second-container{
+    display: grid;
+    gap: 10px;
+    background-color: aqua;
+    grid-template-columns: repeat(3,200px);
+    height: 700px;
+    margin: 20px 30px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.container-element{
+    background-color: #db930b;
+    border: 1px solid ;
+}
